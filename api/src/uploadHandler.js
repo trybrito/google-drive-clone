@@ -4,14 +4,21 @@ import { logger } from "../src/logger.js";
 import fs from "fs";
 
 export default class UploadHandler {
-  constructor({ io, socketId, downloadsFolder }) {
+  constructor({ io, socketId, downloadsFolder, messageTimeDelay }) {
     this.io = io;
     this.socketId = socketId;
     this.downloadsFolder = downloadsFolder;
     this.ON_UPLOAD_EVENT = "file-upload";
+    this.messageTimeDelay = messageTimeDelay;
+  }
+
+  canExecute(lastExecution) {
+    return Date.now() - lastExecution >= this.messageTimeDelay;
   }
 
   handleFileBytes(filename) {
+    this.lastMessageSent = Date.now();
+
     async function* handleData(source) {
       let alreadyProcessed = 0;
 
@@ -19,6 +26,12 @@ export default class UploadHandler {
         yield chunk;
 
         alreadyProcessed += chunk.length;
+
+        if (!this.canExecute(this.lastMessageSent)) {
+          continue;
+        }
+
+        this.lastMessageSent = Date.now();
         this.io
           .to(this.socketId)
           .emit(this.ON_UPLOAD_EVENT, { alreadyProcessed, filename });
