@@ -11,7 +11,6 @@ export default class ConnectionManager {
   }
 
   onConnect(message) {
-    console.log("connected: ", this.ioClient.id);
     this.socketId = this.ioClient.id;
   }
 
