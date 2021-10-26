@@ -64,7 +64,7 @@ Well, with everything installed and ready, we can proceed to the step by step of
 $ git clone <https://github.com/ThiagoBrito-Dev/google-drive-clone>
 
 # Access the project folder from the command terminal
-$ cd .../google-drive-clone
+$ cd .../google-drive-clone/app
 
 # Install the package.json dependencies
 $ yarn / npm install
