@@ -76,7 +76,7 @@ $ yarn / npm install
 # Execute a aplicação
 $ yarn start
 
-# E, por fim, acesse <http://127.0.0.1:8080> para ver a aplicação rodando no servidor local
+# E, por fim, acesse <http://127.0.0.1:8080> para ver a aplicação rodando no servidor local.
 ```
 
 <hr>
