@@ -127,6 +127,6 @@ $ yarn start
 
 <div>
   <a href="https://github.com/ThiagoBrito-Dev/google-drive-clone/blob/main/README.md">Portuguese (pt-br)</a>
-  |   
+  |
   <a href="https://github.com/ThiagoBrito-Dev/google-drive-clone/blob/main/README-en.md">English (en-us)</a>
 </div>
