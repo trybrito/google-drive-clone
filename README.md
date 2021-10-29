@@ -17,7 +17,7 @@
   </p>
 
   <div>
-    <img src="https://img.shields.io/github/license/ThiagoBrito-Dev/Podcastr?color=4285f4&style=for-the-badge" />
+    <img src="https://img.shields.io/github/license/trybrito/Podcastr?color=4285f4&style=for-the-badge" />
     <img src="https://img.shields.io/static/v1?label=version&message=1.0.0&color=4285f4&style=for-the-badge" />
     <img src="https://img.shields.io/static/v1?label=yarn&message=v1.22.5&color=4285f4&style=for-the-badge" />
     <img src="https://img.shields.io/static/v1?label=tests&message=passing&color=4285f4&style=for-the-badge"/>
@@ -66,7 +66,7 @@ Bom, com tudo instalado e pronto, podemos ir para o passo a passo de como rodar 
 
 ```bash
 # Primeiramente, clone este repositório com o GIT
-$ git clone <https://github.com/ThiagoBrito-Dev/google-drive-clone>
+$ git clone <https://github.com/trybrito/google-drive-clone>
 
 # Acesse a pasta do projeto pelo terminal de comando
 $ cd .../google-drive-clone/app
@@ -101,7 +101,7 @@ $ yarn start
 ### 👨🏽‍🎓 Autor
 
 <div align="center">
-  <img src="https://github.com/ThiagoBrito-Dev.png" width="250px" />
+  <img src="https://github.com/trybrito.png" width="250px" />
 
   <br />
 
@@ -127,7 +127,7 @@ $ yarn start
 ### 📚 README versions
 
 <div>
-  <a href="https://github.com/ThiagoBrito-Dev/google-drive-clone/blob/main/README.md">Portuguese (pt-br)</a>
+  <a href="https://github.com/trybrito/google-drive-clone/blob/main/README.md">Portuguese (pt-br)</a>
   |
-  <a href="https://github.com/ThiagoBrito-Dev/google-drive-clone/blob/main/README-en.md">English (en-us)</a>
+  <a href="https://github.com/trybrito/google-drive-clone/blob/main/README-en.md">English (en-us)</a>
 </div>
