@@ -80,9 +80,8 @@ $ yarn start
 
 ### 🔮 Applied technologies
 
-- [HTML](https://devdocs.io/html/)
-- [CSS](https://devdocs.io/css/)
-- [JavaScript](https://devdocs.io/javaScript/)
+#### Backend
+
 - [Node.js](https://nodejs.org/en/)
 - [Jest](https://jestjs.io/pt-BR/)
 - [Busboy](https://www.npmjs.com/package/busboy)
@@ -91,6 +90,12 @@ $ yarn start
 - [Pino](https://www.npmjs.com/package/pino)
 - [Pino-pretty](https://www.npmjs.com/package/pino-pretty)
 - [Pretty-bytes](https://www.npmjs.com/package/pretty-bytes)
+
+#### Frontend
+
+- [HTML](https://devdocs.io/html/)
+- [CSS](https://devdocs.io/css/)
+- [JavaScript](https://devdocs.io/javaScript/)
 
 <hr>
 
